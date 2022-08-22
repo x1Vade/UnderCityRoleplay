@@ -1,0 +1,1061 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "Roboto";
+}
+
+.collapsible-body {
+	border-bottom: 0px solid #ddd !important;
+    background-color: #2a3c4f !important; /*#363636*/
+}
+
+.suckmy {
+    color: #fff !important;
+    text-shadow: 0px 0px #fff !important;
+    -webkit-font-smoothing: none !important;
+    -webkit-text-stroke-width: 0px !important;
+    outline: 0px !important;
+}
+
+.fa {
+    color: white !important;
+}
+
+.collapsible-header {
+    margin: auto !important;
+    background-color: #30475e !important;
+    color: white;
+    width: 88.5%;
+    text-shadow: 0px 0px #fff !important;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#racing-hud {
+    position:absolute;
+    top:65%;
+    left:2%;
+    letter-spacing:3px;
+    font-size:22px;
+    display:none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: 1px 1px 1px rgba(1,1,1,1);
+}
+
+.phone-shell {
+    bottom: 10px;
+    right: 30px;
+    display: inline-block;
+    position: absolute;
+    -webkit-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    display: none;
+}
+
+.phone-shell {
+    width: 350px;
+    height: 750px;
+    background-image: url('nui://phone/html/images/background.png');
+}
+
+/* THIS IS THE ACTUAL SCREEN */
+
+.phone-screen {
+    top: unset;
+    left: unset;
+    right: 37px;
+    width: 1200px;
+    bottom: 31px;
+    height: 652px;
+    z-index: 20;
+    position: absolute;
+    display: none;
+    pointer-events: all;
+    margin: unset;
+    overflow: hidden;
+    animation: 500ms ease 0s 1 normal none running;
+    transition: bottom 800ms ease 0s;
+    border-radius: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    margin-right: 300px;
+    margin-bottom: 200px;
+    border: 5px solid #fff;
+}
+
+#tela {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#job-money {
+    font-size: 19px;
+    width: 39px;
+    height: 30px;
+    margin-left: -32px;
+    margin-top: 4px;
+    color: white;
+    white-space: nowrap;
+    font-size: 20px;
+    color: rgb(120 239 120);
+}
+
+#job-money-vazio {
+    font-size: 19px;
+    width: 39px;
+    height: 30px;
+    margin-left: -32px;
+    margin-top: 4px;
+    color: white;
+    white-space: nowrap;
+    font-size: 20px;
+    color: rgb(158, 158, 158);
+}
+
+#job-moneyfirts {
+    font-size: 10px;
+    width: 39px;
+    height: 30px;
+    margin-left: -13px;
+    margin-top: 4px;
+    color: white;
+    white-space: nowrap;
+    font-size: 20px;
+    color: rgb(120 239 120);
+}
+
+
+.name-job {
+    width: 39px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: -8px;
+    color: white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.preço-badge {
+    font-size: 14px;
+    position: absolute;
+    width: 39px;
+    height: 30px;
+    margin-left: 79px;
+    margin-top: 25px;
+    color: white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    white-space: nowrap;
+}
+
+.inner_part .img {
+    height: 260px;
+    width: 260px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px rgb(0 0 0 / 20%);
+}
+
+.walpaper1:hover {
+    
+    transform: scale(1.1);
+}
+
+.walpaper2:hover {
+    transform: scale(1.1);
+}
+
+.walpaper3:hover {
+    transform: scale(1.1);
+}
+
+.walpaper4:hover {
+    transform: scale(1.1);
+}
+
+.status-bar {
+    position: relative;
+    height: 0%;
+    display: block;
+    z-index: 5;
+    width: 100%;
+    top: 1%;
+}
+
+#phone-applications {
+    position: relative;
+    height: 88%;
+    display: block;
+    width: 100%;
+}
+
+.navigation-button {
+    padding: -5000px;
+}
+
+.settings-button {
+    /* padding: 150px; */
+    margin-left: 350px;
+    color: #fff;
+}
+
+.navigation-menu {
+    position: relative;
+    left: 0px;
+    color: white;
+    width: 100%;
+    bottom: -25px;
+    height: 40px;
+    display: block;
+    z-index: 5;
+ 
+    margin-top: 11px;
+    padding-top: 8px;
+    background-color: rgba(1, 1, 1, 0.25);
+    opacity: 0.5;
+    border-top: 1px solid rgba(1, 1, 1, 0.5);
+}
+
+.navigation-menu2 {
+    position: relative;
+    height: 4.4%;
+    display: block;
+    z-index: 5;
+    width: 100%;
+    margin-top: 11px;
+    padding-top: 8px;
+}
+
+.rounded-square {
+    height: 53px;
+    width: 53px;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.7em;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.btn-medium {
+    height: 48px;
+    width: 48px;
+}
+
+.btn-medium i {
+    line-height: 48px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.btn-action {
+    color: black;
+    padding: 0px 8px;
+    line-height: 24px;
+    height: 24px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.icon {
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    left: -1px;
+}
+
+.app-row {
+    margin-bottom: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: 16px;
+    left: -13px;
+    
+}
+
+.smaller-row-padding {
+    margin-bottom: 15px;
+}
+
+.phone-modal {
+    position: absolute;
+    z-index: 9999;
+    top: 0%;
+    left: 0%;
+    width: calc(100% - 50px);
+    height: auto;
+    padding: 0px;
+    overflow-y: auto;
+    background-color: rgb(48, 71, 94);
+}
+
+
+.group-phone-modal {
+    position: absolute;
+    z-index: 9999;
+    width: 92%;
+    height: 40%;
+    padding: 0px;
+    overflow-y: auto;
+    bottom: 50px;
+    background-color: rgb(48, 71, 94);
+}
+
+.no-padding {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.phone-app {
+    display: none;
+    height: 130%;
+}
+
+.phone-app:not(.home-container) {
+   
+    background: rgb(34, 40, 49);
+    opacity: 1;
+    height: 120%;
+    display: none;
+  
+    
+}
+
+.input-field-small {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.input-field-small label {
+    opacity: 1;
+}
+
+.icon-spacing i:not(:last-child) {
+    margin-right: 25px !important;
+}
+
+#toast-container {
+    bottom: 40% !important;
+    top: auto !important;
+    z-index: 99999999 !important;
+    left: auto !important;
+    right: 4% !important;
+}
+
+/* Incoming Call */
+
+.caller {
+    margin: 0px;
+}
+
+.incoming-call-container {
+    height: calc(100% + 5px);
+}
+
+.incoming-call-header {
+    width: 100%;
+    height: 75%;
+    margin-bottom: 0px;
+}
+
+.incoming-call-entries-wrapper {
+    overflow-y: auto;
+    height: 25%;
+    position: relative;
+    padding: 25px;
+}
+
+/* Calls */
+
+.call-history-container {
+    height: calc(100% + 17px);
+    padding: 5% 0% 0% 0%;
+}
+
+.call-history-entries-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 10px;
+}
+
+.call-history-entry {
+    position: relative;
+    background-color: rgb(48, 71, 94);
+    width: 100%;
+    height: 13%;
+    margin-top: 5%;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.call-history-entry-buttons {
+    transition: all 0.1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.call-history-entry-buttons i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    cursor: pointer
+}
+
+.call-history-entry-buttons i:hover {
+    filter: brightness(.8);
+}
+
+.call-history-entry:hover .call-history-entry-buttons {
+    opacity: 100;
+}
+
+.call-history-entry-icon {
+    width: 20%;
+    width: 20%;
+}
+
+.call-history-entry-icon i {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+}
+
+.call-history-entry-data {
+    width: 80%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-history-entry-data-name {
+    position: relative;
+}
+
+.call-history-entry-data-number {
+    position: absolute;
+    bottom: 10px;
+}
+.contacts-entries-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-container {
+    height: calc(100% + 17px);
+    padding: 5% 3% 0% 3%;
+}
+
+
+.contacts-entry {
+    position: relative;
+    background-color: rgb(48, 71, 94);
+    width: 100%;
+    height: 13%;
+    margin-top: 5%;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.contacts-entry-buttons {
+    transition: all 0.1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.contacts-entry-buttons i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    cursor: pointer
+}
+
+.contacts-entry-buttons i:hover {
+    filter: brightness(.8);
+}
+
+.icon-button:hover {
+    filter: brightness(.8);
+}
+
+.contacts-entry:hover .contacts-entry-buttons {
+    opacity: 100;
+}
+
+.contacts-entry-icon {
+    width: 20%;
+    width: 20%;
+}
+
+.contacts-entry-icon i {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+}
+
+.contacts-entry-data {
+    width: 80%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-entry-data-name {
+    position: relative;
+}
+
+.contacts-entry-data-number {
+    position: absolute;
+    bottom: 10px;
+}
+
+/* Yellow Pages */
+
+.yellow-pages-container {
+    height: calc(100% + 17px);
+    padding-top: 5px;
+}
+
+.yellow-pages-entries-wrapper {
+    overflow-y: auto;
+    height: 85%;
+    width: 100%;
+}
+
+.yellow-pages-iconmove {
+    position: relative;
+    bottom: 570px;
+    left: 108px;
+    height: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.yellow-pages-footer {
+    position: relative;
+    bottom: 614px;
+    left: 108px;
+    height: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.yellow-pages-entries {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.yellow-page-entry {
+    padding: 0px;
+}
+
+.yellow-page-body {
+    padding: 7px !important;
+    white-space: normal;
+    word-wrap: break-word;
+    font-size: 1.1em;
+}
+
+.yellow-page-poster {
+    padding: 7px !important;
+    font-size: 10px;
+}
+
+/* Messages */
+
+.messages-container {
+    height: 100%;
+    padding-top: 5px;
+}
+
+.messages-entries-wrapper {
+    overflow-y: auto;
+    height: 90%;
+    position: relative;
+}
+
+.messages-footer {
+    position: relative;
+    bottom: 12px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messages-iconpog {
+    position: relative;
+    bottom: 80px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messages-entries {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.messages-entry:nth-of-type(2n) {
+    background: rgba(250,250,250, 0.1)
+}
+
+.messages-entry {
+    padding-top:3px;
+    margin-bottom: 7px;
+}
+
+.messages-entry-icon {
+    color: white;
+    justify-content: center;
+}
+
+.messages-entry-details {
+    height: 14px;
+    line-height: 14px;
+}
+
+.messages-entry-details-sender {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.messages-entry-details-date {
+    padding: 3px;
+    font-weight: 0;
+    font-size: 11px;
+    color: white;
+    opacity: 0.9;
+}
+
+.messages-entry-body {
+    line-height: 5px;
+    max-height: 3%;
+    overflow: hidden;
+    text-align: left;
+    height: 13px;
+    line-height: 13px;
+    font-size: 11px;
+    color: rgb(240, 240, 240);
+    overflow: hidden;
+    word-break: break-all;
+}
+
+/* Message */
+
+.message-container {
+    height: calc(100% + 17px);
+}
+
+.message-header {
+    width: 125%;
+    height: 5%;
+    margin-bottom: 0px;
+}
+
+.message-entries {
+    padding-top: 10px;
+}
+
+.message-recipient {
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.message-entries-wrapper {
+    overflow-y: auto;
+    height: 75%;
+    width: 100%;
+}
+
+.job-center-entries-wrapper {
+    overflow-y: auto;
+    margin-top: 10px;
+    height: 75%;
+    width: 100%;
+}
+
+.message-footer {
+    position: relative;
+    bottom: 80px;
+    height: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.message-details {
+    white-space: nowrap;
+    font-size: 0.7em !important;
+    text-align: right;
+}
+
+.Messageleft {
+    background-color: rgb(55, 71, 79);
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 9px;
+    position: relative;
+    margin: 2px;
+    width: 70%;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    word-break: break-word;
+}
+
+.Messageright {
+    background-color: #158ffe;
+    color: #fff;
+    float: right;
+    margin-right: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 9px;
+    position: relative;
+    margin: 2px;
+    width: 70%;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    word-break: break-word;
+}
+
+/* Contacts */
+
+.job-center-entries {
+    overflow: scroll;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+.job-center-entries-header {
+    height: 12%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.job-center-entries-wrapper {
+    height: 80%;
+    position: relative;
+}
+
+.contacts-entries-header {
+    margin-top: 10%;
+    height: 10%;
+}
+
+.contacts-entries-wrapper {
+    overflow-y: auto;
+    height: 75%;
+    position: relative;
+}
+
+.contacts-footer {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    z-index: 100;
+    font-size: 20px;
+    color: white;
+}
+
+.contacts-entries {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: none;
+}
+
+.contacts-entry-icon {
+    color: rgb(66, 204, 24);
+    justify-content: center;
+}
+
+.contacts-entry-name {
+    font-weight: bold;
+}
+
+/* Twatter */
+
+.twatter-container {
+    height: calc(100% + 17px);
+}
+
+.twatter-header {
+    font-size: 1.3em;
+}
+
+.twatter-entries-header {
+    height: 10%;
+}
+
+.twatter-entries-wrapper {
+    overflow-y: auto;
+    height: 71%;
+    position: relative;
+    margin-top: -17px;
+}
+
+.settings-entries-wrapper {
+    overflow-y: auto;
+    height: 84%;
+    margin-left: -1px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.cores-entries-wrapper {
+    overflow-y: auto;
+    margin-left: -1px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.twatter-footer {
+    position: relative;
+    bottom: 583px;
+    left: 100px;
+    height: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.twatter-entries {
+    margin-bottom: 0px;
+    padding-bottom: 34px;
+    margin-top: 1px;
+    padding-top: 22px;
+
+}
+
+.twatter-content {
+    padding: 10px !important;
+    word-break: break-word;
+}
+
+.twatter-title {
+    font-size: 1.0rem !important;
+    font-weight: bold !important;
+}
+
+.calculadora-container {
+    height: calc(100% + 17px);
+    width: 100%;
+}
+
+.calculadora-wrapper {
+    padding-top: 30%;
+    height: calc(100% + 5px);
+    position: relative;
+    width: 100%;
+}
+
+/* Account Information */
+
+.account-information-container {
+    height: calc(100% + 17px);
+}
+
+.account-information-wrapper {
+    padding-top: 40px;
+    height: calc(100% + 5px);
+    position: relative;
+}
+
+.account-information-primary-job {
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+
+.account-information-secondary-job {
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+
+/* .license-table {
+    text-align: center;
+
+} */
+
+.license-table td {
+    padding-top: 1px;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+/* Error Messaing*/
+.resizeBorder{
+   text-align: center;
+}
+
+.resizeBorder-Text{
+   font-weight: 500;
+   font-size: 18px;
+   text-shadow: 1px 1px 2px #000;
+   padding-top: 10%;
+   color: #6b6b6b;
+   font-style: italic;
+
+}
+
+.resizeBorder2{
+    float: left;
+   font-weight: 500;
+   font-size: 15px;
+   text-shadow: 1px 1px 2px #000;
+   padding-top: 10%;
+   vertical-align: bottom;
+   color: rgb(255, 255, 255);
+}
+
+.errorChecking{
+    font-size: 3px;
+    padding-top: -20%;
+}
+
+.error.active {
+  padding: 7px 11px 4px;
+  display: block;
+}
+
+.error {
+  /* font */
+  display: none;
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: bold;
+  color: #cc0033;
+  line-height: 20px;
+  /* background */
+  background-color: #fce4e4;
+  border: 1px solid #fcc2c3;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  /* positioning */
+  float: right;
+  position: relative;
+
+  padding: 0;
+  margin-right: 10px;
+}
+
+.error:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 70%;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-color: #fce4e4;
+    border-top: 0;
+    margin-left: -7px;
+    margin-top: -7px;
+}
+
+/* Settings */
+
+.shitbra{
+    overflow-y: auto;
+    height: calc(80% + 5px);
+}
+
+.settings-container {
+    height: calc(100% + 5px);
+}
+
+.cores-container {
+    height: calc(100% + 5px);
+}
+
+.settings-wrapper {
+    height: calc(100% + 5px);
+    position: relative;
+    
+}
+
+.settings-switchBorder{
+    margin-top: 5%;
+    border-left:3px solid rgba(71, 71, 71, 0.3);
+    background-color: rgba(124, 115, 115, 0.05);
+}
+
+.settings-footer{
+    position: absolute;
+    bottom: 501px;
+    margin-left: 220px;
+    height: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+}

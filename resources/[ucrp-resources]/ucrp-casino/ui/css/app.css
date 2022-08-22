@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	overflow-y: none;
+}
+
+.main-container {
+	display: none;
+	position: absolute;
+	width: 48.457486832204665vh;
+	height: 15.5vh;
+	
+	background: #23242F;
+	border: 0.1vh solid #70767C;
+	box-sizing: border-box;
+
+	left: 50%;
+  bottom: -5vh;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.cash-container {
+	position: absolute;
+	width: 45.598194130925506vh;
+	height: 2.6335590669676447vh;
+
+	background: #418580;
+	border-radius: 1.2039127163280663vh;
+	top: 0.9029345372460497vh;
+	left: 1.2vh;
+}
+
+.cash-text {
+	font-size: 1.3544018058690745vh;
+	text-align: center;
+	color: #FFFFFF;
+  padding: 0.5vh;
+}
+
+.info-container {
+	margin-top: 1vh;
+	display: flex;
+	flex-direction: row;
+	padding-left: 0.25vh;
+	width: 55vh;
+	padding-bottom: 1.6vh;
+}
+
+.info-item {
+	position: absolute;
+	font-size: 1.3544018058690745vh;
+	color: #FFFFFF;
+}
+
+.dealercount {
+	padding-left: 14.5vh;
+	text-align: center;
+}
+
+.selfcount {
+	padding-left: 40vh;
+	text-align: center;
+}
+
+.time {
+	padding-left: 27.5vh;
+	text-align: right;
+}
+
+.line {
+	position: absolute;
+	width: 45.4477050413845vh;
+	height: 0vh;
+	border: 0.07524454477050414vh solid #2A2C38;
+	margin-top: 0.75vh;
+}
+
+.shit-text {
+	position: absolute;
+	width: 45.4477050413845vh;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.053423626787058vh;
+	line-height: 1.2039127163280663vh;
+	color: #747988;
+
+	margin-left: 0.1vh;
+	margin-top: 1.9vh;
+}
