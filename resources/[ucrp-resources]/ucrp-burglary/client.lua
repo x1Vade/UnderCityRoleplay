@@ -806,7 +806,7 @@ Citizen.CreateThread(function()
           DrawText3Ds(generator.x + myRobbableItems[i]["x"], generator.y + myRobbableItems[i]["y"], generator.z + myRobbableItems[i]["z"], '[G] - Search ' .. myRobbableItems[i]["name"])
 
           if IsControlJustReleased(1, 47) then
-            TriggerEvent("client:newStress",true,math.ranom(5,10))
+            TriggerEvent("client:newStress",true,20)
             myRobbableItems[i]['isSearched'] = true
             local distance, pedcount = closestNPC()
             local distadd = 0.1
@@ -815,7 +815,7 @@ Citizen.CreateThread(function()
               local distancealter = (8.0 - distance) / 100
               distadd = distadd + distancealter
             end
-
+            
             distadd = distadd * 100
             disturbance = disturbance + distadd
             if math.random(100) > 95 then
